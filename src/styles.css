@@ -1,14 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+.btn-group{
+   
+   
+    font-family: Inter,sans-serif;
+    background-color: antiquewhite;
 
-body{
-    size: 1295px * 5343.18px;
-}
-.container-fluid{
-    background-color: aquamarine;
-}
+  }
 
-.btn-group-1{
-    background-color: aliceblue;
-}
