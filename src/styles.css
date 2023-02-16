@@ -3,9 +3,11 @@
 
 .btn-group{
    
-   
     font-family: Inter,sans-serif;
     background-color: antiquewhite;
 
+  }
+  h1{
+    font-size: x-large;
   }
 
