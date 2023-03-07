@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { mock_list } from './mock_list';
 
 @Component({
   selector: 'app-cards',
@@ -15,10 +16,15 @@ export class CardsComponent {
   constructor() {
     this.img ="No img found";
     this.imgDescription = "No description found"
-    this.title = "N/A"
+    this.title = "N/Atest"
     this.description = "No information found"
    }
 
   ngOnInit(): void {
   }
+  getItems(){
+    return mock_list;
+  }
+
+  
 }

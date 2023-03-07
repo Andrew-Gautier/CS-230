@@ -1,4 +1,4 @@
-<div class="card-group">
+<!-- <div class="card-group">
     <div class="card">
       <img src="" class="card-img-top" alt="...">
       <div class="card-body">
@@ -24,4 +24,11 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
+  <div class="container"> 
+    <div class="row">
+      <div class="col-4" *ngFor="let item of getItems()"> 
+        <app-card [img]="item.img" [description]="item.description" 
+        [title]="item.title" [imgDescription]="item.imgDescription"></app-card>
+      </div>
+    </div>

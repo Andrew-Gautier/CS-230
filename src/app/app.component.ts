@@ -8,7 +8,7 @@ import { ProductModel } from './header/cards/product.model';
 })
 export class AppComponent {
   title = 'myWebApp';
-  products = ProductModel [] = [];
+  products : ProductModel [] = [];
 
   constructor(){
     for(var item of mock_list){
