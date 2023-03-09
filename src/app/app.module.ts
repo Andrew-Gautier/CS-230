@@ -9,6 +9,12 @@ import { CardsComponent } from './header/cards/cards.component';
 import { FooterComponent } from './header/footer/footer.component';
 import { Cards2Component } from './header/cards2/cards2.component';
 import { CardComponent } from './header/cards/card/card.component';
+import { LandingPhotoComponent } from './header/landing-photo/landing-photo.component';
+import { WhyJobberComponent } from './Layouts/why-jobber/why-jobber.component';
+import { PricingComponent } from './Layouts/pricing/pricing.component';
+import { SignupComponent } from './Layouts/signup/signup.component';
+import { HomepageComponent } from './Layouts/homepage/homepage.component';
+import { PrivacyPolicyComponent } from './Layouts/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { CardComponent } from './header/cards/card/card.component';
     CardsComponent,
     FooterComponent,
     Cards2Component,
-    CardComponent
+    CardComponent,
+    LandingPhotoComponent,
+    WhyJobberComponent,
+    PricingComponent,
+    SignupComponent,
+    HomepageComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
