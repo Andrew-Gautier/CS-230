@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cs-230-lab-ba360": {
+      "hosting": {
+        "myWebApp": [
+          "cs-230-lab-ba360"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cs-230-lab-ba360"
+  }
+}

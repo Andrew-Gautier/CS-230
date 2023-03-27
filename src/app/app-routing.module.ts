@@ -14,6 +14,7 @@ const routes: Routes = [
     path: '', 
     component: HomepageComponent,
 
+  },
   {
     path: 'pricing',
     component: PricingComponent,

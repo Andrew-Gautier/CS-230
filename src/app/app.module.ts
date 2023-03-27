@@ -15,6 +15,13 @@ import { PricingComponent } from './Layouts/pricing/pricing.component';
 import { SignupComponent } from './Layouts/signup/signup.component';
 import { HomepageComponent } from './Layouts/homepage/homepage.component';
 import { PrivacyPolicyComponent } from './Layouts/privacy-policy/privacy-policy.component';
+import {HttpClientModule} from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { AngularFireModule } from '@angular/fire/compat';
 
 @NgModule({
   declarations: [
@@ -34,7 +41,14 @@ import { PrivacyPolicyComponent } from './Layouts/privacy-policy/privacy-policy.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    // provideFirebaseApp(() => initializeApp(environment.firebase)),
+    // provideAuth(() => getAuth()),
+    // provideDatabase(() => getDatabase()),
+    AngularFireModule.initializeApp(environment.firebase)
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
