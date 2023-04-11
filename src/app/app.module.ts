@@ -7,7 +7,7 @@ import { NavigationComponent } from './header/navigation.component';
 import { NavbarComponent } from "./header/navbar/navbar.component";
 import { CardsComponent } from './header/cards/cards.component';
 import { FooterComponent } from './header/footer/footer.component';
-import { Cards2Component } from './header/cards2/cards2.component';
+import { Cards2Component } from './header/cards/cards2/cards2.component';
 import { CardComponent } from './header/cards/card/card.component';
 import { LandingPhotoComponent } from './header/landing-photo/landing-photo.component';
 import { WhyJobberComponent } from './Layouts/why-jobber/why-jobber.component';

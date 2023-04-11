@@ -11,6 +11,9 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'myWebApp';
   products : ProductModel [] = [];
+  
+
+
 
   constructor(private store: AngularFireAuth, private client:HttpClient){
     let result = client.get("https://cs-230-lab-ba360-default-rtdb.firebaseio.com/myinfo.json");

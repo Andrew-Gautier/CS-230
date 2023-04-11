@@ -1,0 +1,34 @@
+<!-- <div class="card-group">
+    <div class="card">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">"I have time for my family again" </h5>
+        <p class="card-text">Before Jobber, I was doing all these admin-focused tasks after-hours when I could have been spending time with my family.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">“We stay in our own lanes now”</h5>
+        <p class="card-text">Jobber has led us to stay in our lanes because if you follow the Jobber workflow, it keeps you on track with your responsibilities.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">“Jobber has saved our lives”</h5>
+        <p class="card-text">You and your team can run your day-to-day operations from anywhere with our iOS and Android mobile apps on your phone or tablet.</p>
+        <p class="card-text"><small class="text-muted">Jobber has saved our lives. There’s so much coordinating between the two trucks, it’s impossible to scale our company without a booking software.</small></p>
+      </div>
+    </div>
+
+  </div> -->
+  <div class="container"> 
+    <div class="row">
+      <div class="col-4" *ngFor="let item of getItems()"> 
+        <app-card [img]="item.img" [description]="item.description" 
+        [title]="item.title" [imgDescription]="item.imgDescription"></app-card>
+      </div>
+    </div>
