@@ -8,6 +8,7 @@ import { WhyJobberComponent } from './Layouts/why-jobber/why-jobber.component';
 import { SignupComponent } from './Layouts/signup/signup.component';
 import { HomepageComponent } from './Layouts/homepage/homepage.component';
 import { PrivacyPolicyComponent } from './Layouts/privacy-policy/privacy-policy.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
   {
     path: 'signup',
     component: SignupComponent,
+  },
+  {
+    path: 'form',
+    component: FormComponent,
+    
   }
 
 

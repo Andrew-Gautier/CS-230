@@ -1,1 +1,55 @@
-<p>pricing works!</p>
+<p> testtest</p>
+<div class="container" style = 'margin-top: 300px;'>
+    <div class="row">
+        <div class="col-8">
+            <form #postform="ngForm"(ngSubmit)="writedata(postform.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Path 1</span>
+                    <input type="text" class="form-control" ngModel name="img1">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">AltImg 1</span>
+                    <input type="text" class="form-control" ngModel name="girlName1">
+                </div>
+                
+                <div class="input-group">
+                    <span class="input-group-text">Image Path 2</span>
+                    <input type="text" class="form-control" ngModel name="img2">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">AltImg 2</span>
+                    <input type="text" class="form-control" ngModel name="girlName2">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Path 3</span>
+                    <input type="text" class="form-control" ngModel name="img3">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">AltImg 3</span>
+                    <input type="text" class="form-control" ngModel name="girlName3">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Image Path 4</span>
+                    <input type="text" class="form-control" ngModel name="img4">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">AltImg 4</span>
+                    <input type="text" class="form-control" ngModel name="girlName4">
+                </div>
+
+                
+
+                
+
+                
+
+                <button class="btn btn-light" type="sub">
+                    Add Item
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
