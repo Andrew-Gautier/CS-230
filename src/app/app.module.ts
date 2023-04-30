@@ -24,6 +24,7 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { AngularFireModule } from '@angular/fire/compat';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FormsModule } from '@angular/forms';
     SignupComponent,
     HomepageComponent,
     PrivacyPolicyComponent,
-    FormComponent
+    FormComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import { FormsModule } from '@angular/forms';
     // provideAuth(() => getAuth()),
     // provideDatabase(() => getDatabase()),
     AngularFireModule.initializeApp(environment.firebase),
-    FormsModule
+    FormsModule,
+    
     
 
   ],

@@ -9,6 +9,7 @@ import { SignupComponent } from './Layouts/signup/signup.component';
 import { HomepageComponent } from './Layouts/homepage/homepage.component';
 import { PrivacyPolicyComponent } from './Layouts/privacy-policy/privacy-policy.component';
 import { FormComponent } from './form/form.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,10 @@ const routes: Routes = [
   {
     path: 'pricing',
     component: PricingComponent,
+  },
+  {
+    path: 'auth',
+    component: AuthComponent
   },
   {
     path: 'privacy-policy',
